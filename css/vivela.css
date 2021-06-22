@@ -1,0 +1,143 @@
+.navbar-brand{
+	background: #c8f902e8;
+    width: 70px;
+    height: 70px;
+    padding-top: 19px;
+    border-radius: 50%;
+    margin-left: 48%;
+    color: black;
+    font-size: 20px;
+    padding-left: 8px;
+}
+@media(min-width: 768px){
+.navbar-nav{
+    position: relative;
+    top: 71px;
+    right: 208px;}
+}
+.nav-link{
+	color: black;
+}
+.active{
+	color: #c8f902e8;
+}
+.nav-link:hover{
+	color: #c8f902e8;
+}
+.concept img{
+	width: 102%;
+    height: 96%;
+}
+.concept{
+	margin-left: -5px;
+}
+.col-sm-6{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 12px;
+    right: 0px;
+    bottom: 0px;
+    width: 97.5%;
+    height: 96%;
+    opacity: 0;
+    background:#c8f902e8;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.text{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+/*for modal css start*/
+.modal-title{
+    margin-left: 445px;
+}
+.modal-header{
+    background: #c8f902e8;
+}
+.modal-body{
+    width: 91%;
+    margin: auto;
+}
+.col-12 img{
+    width: 100%;
+    height: 470px;
+}    
+.col-lg-6 p{
+    text-align: justify;
+    font-weight: 500;
+}
+.col-lg-6{
+    padding: 40px;
+}
+.m1{
+    padding-left: 20px;
+}
+hr{
+    height: 2px;
+}
+.m2 img{
+   width: 100%;
+   height: 230px; 
+}
+.col-md-4{
+    position: relative;
+}
+.overlay1{
+    position: absolute;
+    top: 0px;
+    width: 318.52px;
+    height: 230px;
+    background: #c8f902e8;
+    opacity: 0;
+}
+.overlay1:hover{
+    opacity: 1;
+}
+.text1{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 48%;
+    left: 26%;
+}
+button{
+    background: #c8f902e8;
+    width: 100%;
+    border: none;
+    color: white;
+    margin-top: 28px;
+    height: 44px;
+    font-size: 25px;
+}
+@media(max-width: 768px){
+
+.modal-title{
+    margin-left: 63px;
+}
+.modal-body{
+    width: 99%;
+    margin: auto;
+}
+.col-12 img{
+    width: 100%;
+    height: 300px;
+} 
+.m1{
+    padding-left: 37px;
+} 
+.m2 img{
+   padding: 4px; 
+}
+.overlay1{
+    width: 306.59px;
+    padding: 4px;
+}
+}
